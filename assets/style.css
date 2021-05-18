@@ -1,0 +1,86 @@
+
+.navigationbar, .dropdown-menu{
+    font-size: 28px;
+}
+.card-group{
+    font-size: 20px;
+}
+.jumbotron{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+form {
+    font-size: 25px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 50px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .purchase{
+      font-size: 20px;
+      width: 100%;
+      text-align: unset;
+  }
+  .container{
+      font-size: 20px;
+      text-align:unset;
+  }
+  input[type="text"] {
+    font-size: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+  textarea{
+              width: 100%;
+              padding: 14px 20px;
+              margin: 8px 0;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+    }
+  p > label {
+    display: block;
+  }
+  body {
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  /* Style for the form in Contact Us */
+  input.email {
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+    font-family: inherit;
+    font-size: 90%;
+    
+  }
+input.invalid{
+    border-color: #900;
+    background-color: #FDD;
+  }
+input:focus.invalid {
+    outline: none;
+  } 
+  .error {
+    width  : 100%;
+    padding: 0;
+  
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    
+  }
+  .error.active {
+    padding: 0.3em;
+  }
